@@ -1,0 +1,12 @@
+{
+  "name": "n2s-buildpack-probe",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Throwaway probe: does Toolforge Build Service honour engines.node, and can it reach a Node version patched for CVE-2026-111497?",
+  "engines": {
+    "node": "22.23.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
